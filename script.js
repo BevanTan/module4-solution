@@ -40,8 +40,9 @@ WARNING!!! WARNING!!!
   yaakovGreeter.sayHello = function () {
     console.log(greeting + yaakovGreeter.name);
   }
+   window.yaakovGreeter = yaakovGreeter;
   
-})();
+})(window);
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
